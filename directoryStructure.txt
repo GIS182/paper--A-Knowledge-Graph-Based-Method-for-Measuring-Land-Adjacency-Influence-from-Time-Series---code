@@ -19,7 +19,7 @@ LandAdjacency_Serial/
 │   ├── build_laim.py          # S3：构建 LAIM 图谱
 │   ├── build_lcsm.py          # S4：构建 LCSM 图谱
 │   ├── visualize_matrix.py    # 独立脚本：绘制 LAIM 和 LCSM 热力图
-│   ├── adjacency_detector.py  # S5：识别邻接与非邻接(从这一步开始输入文件只有目标期的2023年)
+│   ├── adjacency_detector.py  # S5：识别邻接与非邻接(从这一步开始输入文件只有目标期的2024年)
 │   ├── compute_effect.py      # S6–S8：缓冲、相交、影响赋值
 │   ├── merge_and_raster.py    # S9–S10：图层合并 + 栅格化
 ├── main.py                    # 主程序入口，串联全流程
