@@ -1,0 +1,9 @@
+gdal:
+input_root: "data/xfdnlanduse.gpkg"
+gpkg_layer_prefix: "xfdnlanduse_"
+output_root: "output"
+years: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+laim_years: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+lcsm_years: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+target_year: 2024
+resolution: 30

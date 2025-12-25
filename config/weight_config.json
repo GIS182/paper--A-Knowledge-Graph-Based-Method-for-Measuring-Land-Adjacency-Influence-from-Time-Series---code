@@ -1,0 +1,18 @@
+{
+  "laim_weights": {
+    "avg_shortest_distance": 0.4,
+    "centroid_distance": 0.3,
+    "boundary_distance": 0.3
+  },
+  "lcsm_weights": {
+    "transition_frequency": 0.5,
+    "contact_density": 0.3,
+    "mixture_index": 0.2
+  },
+  "distance_decay": {
+    "a": 1000,
+    "b": 0.5
+  },
+  "lcsm_distance_range": [10, 300],
+  "impact_decay_factor": 0.01
+}

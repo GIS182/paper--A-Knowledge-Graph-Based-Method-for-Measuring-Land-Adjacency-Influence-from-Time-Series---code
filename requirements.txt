@@ -1,0 +1,15 @@
+geopandas
+shapely
+rasterio
+fiona
+pyproj
+numpy
+pandas
+gdal
+tqdm
+PyYAML
+seaborn
+matplotlib
+SciPy
+Rtree
+psutil
