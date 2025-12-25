@@ -1,15 +1,15 @@
 LandAdjacency_Serial/
 ├── data/
-│   ├── raw/                   # 保留原始土地利用矢量数据（gzlanduse_2013~2023.shp）备份（可选）
-│   └── landuse.gpkg           # ⭐ 集中存储所有年份图层
+│   ├── raw/                   # 保留原始土地利用矢量数据
+│   └── landuse.gpkg           # 集中存储所有年份图层
 ├── output/                    # 存放输出图层（融合矢量、栅格图）
 ├── config/                    # 存放配置项，如地类编码映射、权重等
 │   ├── class_map.json         # 地类编码表，如 {1: "农田", 2: "森林", ...}
 │   ├── weight_config.json     # 指标权重配置
 │   ├── config.yaml
 ├── utils/                     # 工具函数，如投影转换、日志记录
-│   ├── geodata_io.py          # ⭐ 重命名！统一读写接口（支持GPKG）
-│   ├── spatial_index.py       # ⭐ 新增！空间索引创建函数
+│   ├── geodata_io.py          # 统一读写接口（支持GPKG）
+│   ├── spatial_index.py       # 空间索引创建函数
 │   ├── config_reader.py
 │   ├── timer.py
 ├── core/                      # 核心算法模块，每步一个.py文件
