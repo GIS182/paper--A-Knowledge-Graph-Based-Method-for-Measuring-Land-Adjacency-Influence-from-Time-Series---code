@@ -1,12 +1,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18061451.svg)](https://doi.org/10.5281/zenodo.18061451)
 
 
-# A Knowledge Graph-Based Approach for Quantifying Land Adjacency Influence
+# A Knowledge Graph-Based Method for Measuring Land Adjacency Influence from Time-Series Land-Use Data
 
 This repository provides the **official implementation and experimental data**
 for the paper:
 
-> **A Knowledge Graph-Based Approach for Quantifying Land Adjacency Influence**
+> **A Knowledge Graph-Based Method for Measuring Land Adjacency Influence from Time-Series Land-Use Data**
 
 The code implements a structured framework for quantifying **land-use adjacency influence**
 by integrating spatial proximity relationships and temporal coupling patterns
